@@ -124,17 +124,40 @@ nav{
     opacity: 0.7;
 }
 .itens {
+    text-align: center;
+
     line-height: 1.5;
 }
 .itens:before {
+    text-align: center;
+
     content: "*";
 }
 .itens:first-child {
+    text-align: center;
+
     font-weight: bold;
 }
 .video{
     width: 560px;
     margin:2em auto
+}
+.madrinhas{
+    text-align: center;
+    right: 20px;
+    width: 457px;
+    float: center;
+    margin: 20px 20px 20px 0;
+}.madrinhas {
+    text-align: center;
+
+    width: 23%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 5px 5px 1px 0px #000000;
+}
+.madrinhas:hover{
+    opacity: 0.7;
 }
 .copyright{
     text-align: center;
